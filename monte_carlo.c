@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-
 float frandom() {
   long int q = random();
   float ret = (float)q/(float)RAND_MAX;
