@@ -12,6 +12,8 @@ float wallis_pi(int n)
   {
     k*=(float)(4.*i*i)/(4.*i*i-1);
   }
+  
+  
   return (k*2);
 }
 int main(void) {
