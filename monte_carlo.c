@@ -16,7 +16,7 @@ float mc_pi(int n)
     y=frandom();
     len=x*x+y*y;
     if(len<=1){
-      pc++:
+      pc++;
     }
   }
   float pi = 4.0*pc/ps;
